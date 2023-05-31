@@ -4,6 +4,7 @@
 --medium-grey: hsl(216, 12%, 54%);
 --dark-blue: hsl(213, 19%, 18%);
 --darkest-blue: hsl(216, 12%, 8%);
+--accent-orange: rgb(227, 129, 0);
 }
 *, *::before, *::after {
     box-sizing: border-box;
@@ -79,7 +80,7 @@ body {
     color: var(--white);
 }
 .button:focus {
-    background-color: rgb(227, 129, 0);
+    background-color: var(--accent-orange);
     color: var(--white);
 }
 .submit__section {
@@ -92,7 +93,7 @@ body {
     padding: 1em;
     border-radius: 30px 30px;
     border: none;
-    background-color: rgb(227, 129, 0);
+    background-color: var(--accent-orange);
     margin: 0 auto;
     text-transform: uppercase;
     text-align: center;
@@ -114,7 +115,7 @@ body {
     padding: 20px;
 }
 .rating__output {
-    color: rgb(227, 129, 0);
+    color: var(--accent-orange);
     background-color: hsl(210, 16%, 22%);
     border-radius: 30px 30px;
     width: 50%;
