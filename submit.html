@@ -21,5 +21,12 @@
         </p>
     </main>
     <script rel="text/javascript" src="script.js"></script>
+    <script rel="text/javascript">
+        function test9 (){
+            let input = document.getElementById("input");
+            input.innerHTML = window.localStorage.getItem('value');
+        }
+        window.onload = test9;
+    </script>
 </body>
 </html>
